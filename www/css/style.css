@@ -1,0 +1,49 @@
+/* Body */
+
+body
+{
+  padding: 5vw;
+  color: white;
+  background: rgba(0, 0, 0, 0.9);
+
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+/* Article */
+
+article
+{
+  width: 90%;
+  height: 82vh;
+  padding: 2vh;
+  margin: 2vh;
+
+  font-size: 10pt;
+  border-radius: 20px;
+
+  color: white;
+  background: black;
+
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+article button
+{
+  margin-top: 2vh;
+}
+
+/* Labels */
+
+article label
+{
+  margin-top: 5px;
+}
+
+#labelNome { color: #0275d8; }
+#labelID { color: #5cb85c; }
+#labelResult { color: #d9534f; }
